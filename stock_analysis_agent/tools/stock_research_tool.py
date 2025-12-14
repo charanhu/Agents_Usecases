@@ -2,6 +2,8 @@ import yfinance as yf
 from crewai.tools import tool
 
 
+# @tool(...) turns this Python function into a tool that agents can call.
+
 @tool("Live Stock Information Tool")
 def get_stock_price(stock_symbol: str) -> str:
     """
@@ -29,3 +31,6 @@ def get_stock_price(stock_symbol: str) -> str:
         f"Price: {current_price} {currency}\n"
         f"Change: {change} ({round(change_percent, 2)}%)"
     )
+
+
+# Stock: TSLA Price: 240.50 USD Change: 3.2 (1.35%)

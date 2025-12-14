@@ -13,3 +13,5 @@ trade_decision = Task(
     ),
     agent=trader_agent
 )
+
+# “Now that the analyst has done the homework, the trader must make a call and defend it with logic.”

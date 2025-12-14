@@ -15,3 +15,5 @@ get_stock_analysis = Task(
     ),
     agent=analyst_agent
 )
+
+# “This task tells the analyst: ‘Go check this stock live, and summarize it like a clear report.’”

@@ -10,3 +10,5 @@ stock_crew = Crew(
     tasks=[get_stock_analysis, trade_decision],
     verbose=True
 )
+
+# A Crew = the full team + their tasks. “Crew will first let the analyst do their job, then pass the context so the trader can decide.”

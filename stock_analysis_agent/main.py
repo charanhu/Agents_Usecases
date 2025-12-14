@@ -10,6 +10,6 @@ def run(stock: str):
 
 
 if __name__ == "__main__":
-    run("TESLA")
+    run("INFY")
     # run("APPLE")  # Uncomment to test with Apple stock
     # run("GOOGL")  # Uncomment to test with Google stock
