@@ -20,6 +20,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+----
+
+Create a `.env` file in the project root and add your keys:
+
+GROQ_API_KEY=your_groq_key_here
+
+
 ## Usage
 
 1. Run the multi-tool agent script:
